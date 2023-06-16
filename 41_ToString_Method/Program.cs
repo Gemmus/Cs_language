@@ -13,7 +13,7 @@ namespace Cs_language
 
             Console.WriteLine(car);
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
     class Car
