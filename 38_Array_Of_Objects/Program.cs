@@ -1,0 +1,41 @@
+// Abstract classes:
+// Modifier that indicates missing components or incomplete implementation.
+// In this example the Vehicle class is an incomplete implementation.
+
+using System;
+
+namespace Cs_language
+{
+    class Program
+    {
+    static void Main(string[] args)
+        {
+            /*
+            Car[] garage = new Car[3];
+            Car car1 = new Car("Mustang");
+            Car car2 = new Car("Corvette");
+            Car car3 = new Car("Lada");
+
+            garage[0] = car1;
+            garage[1] = car2;
+            garage[2] = car3;
+            */
+            // or
+            Car[] garage = {new Car("Mustang"), new Car("Corvette"), new Car("Lada")};
+
+            //Console.WriteLine(garage[0].model);
+            // or
+            foreach (Car car in garage) Console.WriteLine(car.model);
+
+            Console.ReadKey();
+        }
+    }
+    class Car
+    {
+        public String model;
+        public Car(String model)
+        {
+            this.model = model;
+        }
+    }
+}
