@@ -1,7 +1,3 @@
-// Abstract classes:
-// Modifier that indicates missing components or incomplete implementation.
-// In this example the Vehicle class is an incomplete implementation.
-
 using System;
 
 namespace Cs_language
