@@ -17,7 +17,7 @@ namespace Cs_language
             dog.Speak();
             cat.Speak();
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
     class Animal
